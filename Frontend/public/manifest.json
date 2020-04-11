@@ -1,6 +1,6 @@
 {
-  "name": "MANGO",
-  "short_name": "MANGO",
+  "name": "MANGO-App",
+  "short_name": "MANGO-App",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
