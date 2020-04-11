@@ -40,7 +40,7 @@ const AccountProfile = props => {
   const classes = useStyles();
 
   const user = {
-    name: 'La Llorona',
+    name: 'Carlos',
     city: 'Xavier Villaurutia No.511, Nuevo Salagua',
     country: 'Salagua, Manzanillo',
     timezone: 'Mexico',
@@ -59,7 +59,7 @@ const AccountProfile = props => {
               gutterBottom
               variant="h2"
             >
-              La Llorona
+              Carlos
             </Typography>
             <Typography
               className={classes.locationText}
