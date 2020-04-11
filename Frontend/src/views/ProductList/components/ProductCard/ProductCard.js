@@ -17,8 +17,8 @@ import GetAppIcon from '@material-ui/icons/GetApp';
 const useStyles = makeStyles(theme => ({
   root: {},
   imageContainer: {
-    height: 64,
-    width: 64,
+    height: 200,
+    width: 200,
     margin: '0 auto',
     border: `1px solid ${theme.palette.divider}`,
     borderRadius: '5px',
@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     width: '100%'
   },
   statsItem: {
-    display: 'flex',
+    display: 'absolute',
     alignItems: 'center'
   },
   statsIcon: {
@@ -49,6 +49,7 @@ const ProductCard = props => {
     <Card
       {...rest}
       className={clsx(classes.root, className)}
+      
     >
       <CardContent>
         <div className={classes.imageContainer}>
@@ -69,8 +70,21 @@ const ProductCard = props => {
           align="center"
           variant="body1"
         >
+          Destino: Kiosko Salagua
+        </Typography>
+        <Typography
+          align="center"                                                                                        
+          variant="body1"
+        >
           {product.description}
         </Typography>
+        <Typography
+          align="center"
+          variant="body1"
+        >
+          Tarifa de Viaje: 15 $  
+        </Typography>
+
         <Button
                   className={classes.signInButton}
                   color="primary"
@@ -80,7 +94,7 @@ const ProductCard = props => {
                   type="submit"
                   variant="contained"
                 >
-                  Comenzar Pedido
+                  Comenzar Mandado
                 </Button>
       </CardContent>
       <Divider />
@@ -98,7 +112,7 @@ const ProductCard = props => {
               display="inline"
               variant="body2"
             >
-              Actualmente Activo
+              Salida 14:15
             </Typography>
           </Grid>
           <Grid
@@ -110,7 +124,7 @@ const ProductCard = props => {
               display="inline"
               variant="body2"
             >
-              {product.totalDownloads} Pedidos Realizados
+              {product.totalDownloads} Puntos de Confianza
             </Typography>
           </Grid>
         </Grid>

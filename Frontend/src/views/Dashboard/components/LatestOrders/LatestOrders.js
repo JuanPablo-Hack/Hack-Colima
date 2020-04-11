@@ -69,10 +69,10 @@ const LatestOrders = props => {
             size="small"
             variant="outlined"
           >
-            Nuevo pedido
+            Nuevo Mandado
           </Button>
         }
-        title="Latest Orders"
+        title="Mis Mandados"
       />
       <Divider />
       <CardContent className={classes.content}>
@@ -82,7 +82,7 @@ const LatestOrders = props => {
               <TableHead>
                 <TableRow>
                   <TableCell>Orden</TableCell>
-                  <TableCell>Taxista</TableCell>
+                  <TableCell>Usario</TableCell>
                   <TableCell sortDirection="desc">
                     <Tooltip
                       enterDelay={300}

@@ -50,7 +50,7 @@ const LatestProducts = props => {
     >
       <CardHeader
         subtitle={`${products.length} in total`}
-        title="Ultimas Compras"
+        title="Ganasta Básica"
       />
       <Divider />
       <CardContent className={classes.content}>
@@ -62,7 +62,7 @@ const LatestProducts = props => {
             >
               <ListItemAvatar>
                 <img
-                  alt="Product"
+                  alt="Producto"
                   className={classes.image}
                   src={product.imageUrl}
                 />

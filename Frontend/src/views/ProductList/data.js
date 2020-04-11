@@ -5,7 +5,7 @@ export default [
     id: uuid(),
     title: 'Erick Alberto Garcia',
     description:
-      'Soy un taxista dedicado a mi trabajo disponible a todas las horas y a sus ordenes',
+      'Me gusta ayudar a la gente por lo que me pongo al servicio de la gente para hacer sus mandados',
     imageUrl: '/images/avatars/avatar_1.png',
     totalDownloads: '594',
     updatedAt: '27/03/2019'
@@ -14,7 +14,7 @@ export default [
     id: uuid(),
     title: 'Karen Perez',
     description:
-      'Soy alguien alegre siempre disponible lista para sus entregas desde cualquier lugar',
+      'Soy una chava que se procupa por la gente, sobre todo la de mayor edad',
     imageUrl: '/images/avatars/avatar_2.png',
     totalDownloads: '625',
     createdAt: '31/03/2019'

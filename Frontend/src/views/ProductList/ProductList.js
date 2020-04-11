@@ -49,7 +49,7 @@ const ProductList = () => {
         </Grid>
       </div>
       <div className={classes.pagination}>
-        <Typography variant="caption">1-6 of 20</Typography>
+        <Typography variant="caption"></Typography>
         <IconButton>
           <ChevronLeftIcon />
         </IconButton>
